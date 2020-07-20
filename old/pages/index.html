@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <style media="screen">
+    #dev {
+      box-shadow: 3px 4px 0px 0px #899599;
+      background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+      background-color: #ededed;
+      border-radius: 15px;
+      border: 1px solid #d6bcd6;
+      display: inline-block;
+      cursor: pointer;
+      color: #3a8a9e;
+      font-family: Arial;
+      font-size: 17px;
+      padding: 7px 25px;
+      text-decoration: none;
+      text-shadow: 0px 1px 0px #e1e2ed;
+      align-self: center;
+    }
+
+    #dev:hover {
+      background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+      background-color: #bab1ba;
+    }
+
+    #dev:active {
+      position: relative;
+      top: 1px;
+    }
+
+    #title {
+      position: sticky;
+      color: black;
+      font-family: monospace;
+      font-style: oblique;
+      font-size: 500%;
+      text-decoration: overline;
+      background-color: inherit;
+      background-size: cover;
+      text-align: center;
+    }
+
+    .subtitle {
+      outline: none;
+      color: slate_blue;
+      text-shadow: #fc0 1px 0 10px;
+      font-style: oblique;
+      font-size: 401%;
+      text-align: center;
+      text-decoration: underline;
+      background-color: inherit;
+      background-size: cover;
+    }
+    .subtitle:hover{
+      color : blue;
+    }
+    #logo path{
+      filter: blur(23);
+    }
+    body {
+      margin: 0 !important;
+    padding: 0 !important;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      background-image:url('../stuff/images/background.jpg');
+    }
+  </style>
+  <title>main page</title>
+</head>
+
+<body>
+  <h1 id="title">main page</h1>
+  <p style="font-size:200%;text-align:center"><strong><em>welcome to your homepage</em></strong></p>
+  <a href="python.html">
+    <h2 class="subtitle">python</h2>
+  </a>
+  <a href="index.html">
+    <h2 class="subtitle">html/css</h2>
+  </a>
+  <a href="about.html">
+    <h2 class="subtitle">about</h2>
+  </a>
+</body>
+<p align = center>
+<br><br>
+<button id="dev" onclick="window.location.href = '../private/hello.htm';">other pages</button>
+</p>
+</html>
